@@ -1,0 +1,85 @@
+body {
+  text-align:center;
+  border:0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.picsum.photos/id/1056/3988/2720.jpg?hmac=qX6hO_75zxeYI7C-1TOspJ0_bRDbYInBwYeoy_z_h08")
+}
+main
+h1, p {
+  font-family:calibri, verdana, tahoma;
+color:#5f5980;
+
+}
+h1, h3, p {
+  text-align:center;
+  margin:1em auto;
+  width:60%;
+}
+
+fieldset {
+  margin:auto;
+  width:50vw;
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px dotted #5F5980;
+}
+
+label {
+  display:block;
+  border:0px;
+}
+
+form {
+  width:60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  border:0px;
+  display:block;
+  text-align:center;
+  font-family:tahoma;
+  background-color:rgba(47, 48, 97, 0.9);
+  color:#DFDFDF;
+  margin-bottom: 0px;
+}
+
+label {
+  border:0px;
+  padding: 0.5em;
+  margin:auto;
+}
+
+input, select {
+  border: 4px solid #5F5980;
+  width:50vw;
+  margin-top:1em;
+  background-color:white;
+  font-size:1em;
+}
+
+select {
+  text-align:center;
+}
+
+input[type="submit"] {
+  width:unset;
+  padding:0.5em;
+  margin:10px auto;
+  margin-bottom:1.5em;
+  font-size:1.1em;
+}
+
+.inline {
+  display:inline;
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+
+input[type="checkbox"] {
+  width:unset;
+  padding:0.5em;
+  margin:10px auto;
+  margin-bottom:1.5em;
+  font-size:1.1em;
+}
