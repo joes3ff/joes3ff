@@ -1,0 +1,146 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joe's game survey</title>
+  <link rel="stylesheet" href="styles.css">
+<body>
+  <main>
+    <h1 id="title">Joe Code Camp Survey</h1>
+      <p id="description">This is a form on games - information input will <em>'definitely not'</em> be sold to 3rd parties.</p>
+      <form id="survey-form" action='https://register-demo.freecodecamp.org'>        
+        <fieldset>
+          <label id="name-label" for="name-label">Enter Your Full Name: <input value="name" name="name-label" id="name" type="text" required placeholder="Joe"> 
+          <label id="email-label" for="email-label">Enter Email Here: <input value="email" name="email-label" id="email" type="email" required placeholder="Bloggs"></label>
+        </fieldset>
+        <fieldset>
+          <label id="number-label" for="number-label">Enter Age Here: <input name="number-label" id="number" type="number" min="18" max="100" required placeholder="18"></label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">What is your current role?
+            <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Learner</option>
+            <option value="2">Full-Time Job</option>
+            <option value="3">Part-Time Job</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <h3>How do you prefer multiplayer experiences?</h3>
+        <label for="multiplayer-pref"><input value="splitscreen" id="multiplayer-pref" type="radio" name="multiplayer-pref" class="inline" /> Splitscreen</label>
+        <label for="multiplayer-pref"><input value="online" id="multiplayer-pref" type="radio" name="multiplayer-pref" class="inline" /> Online-Co-Op</label>
+      </fieldset
+      <fieldset>
+        <h3>What do you want from the gaming industry?</h3>
+        <label for="feedback"><input id="feedback" value="1" type="checkbox" class="inline"> Gaming Chairs</label>
+        <label for="feedback"><input id="feedback" value="2" type="checkbox" class="inline">AAA Games</label>
+        <label for="feedback"><input id="feedback" value="3" type="checkbox" class="inline">Dog Characters</label>
+        <label for="feedback"><input id="feedback" value="4" type="checkbox" class="inline">Lootboxes</label>
+        <label for="feedback"><input id="feedback" value="5" type="checkbox" class="inline">Cat Characters</label>
+        <label for="missingcheckox"><h3>Have we missed anything?</h3>
+          <textarea id="missingcheckbox" name="missingcheckbox" rows="3" cols="20" placeholder="I prefer playing games whilst commuting on the train..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit">
+      </form>
+  </main>
+</head>
+</body>
+</html>
+<footer></footer>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  text-align:center;
+  border:0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.picsum.photos/id/1056/3988/2720.jpg?hmac=qX6hO_75zxeYI7C-1TOspJ0_bRDbYInBwYeoy_z_h08")
+}
+main
+h1, p {
+  font-family:calibri, verdana, tahoma;
+color:#5f5980;
+
+}
+h1, h3, p {
+  text-align:center;
+  margin:1em auto;
+  width:60%;
+}
+
+fieldset {
+  margin:auto;
+  width:50vw;
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px dotted #5F5980;
+}
+
+label {
+  display:block;
+  border:0px;
+}
+
+form {
+  width:60vw;
+  margin: 0 auto;
+  border:0px;
+  display:block;
+  text-align:center;
+  font-family:tahoma;
+  background-color:rgba(47, 48, 97, 0.9);
+  color:#DFDFDF;
+  margin-bottom: 0px;
+}
+
+label {
+  border:0px;
+  padding: 0.5em;
+  margin:auto;
+}
+
+input, select {
+  border: 4px solid #5F5980;
+  width:50vw;
+  margin-top:1em;
+  background-color:white;
+  font-size:1em;
+}
+
+select {
+  text-align:center;
+}
+
+input[type="submit"] {
+  width:unset;
+  padding:0.5em;
+  margin:10px auto;
+  margin-bottom:1.5em;
+  font-size:1.1em;
+}
+
+.inline {
+  display:inline;
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+
+input[type="checkbox"] {
+  width:unset;
+  padding:0.5em;
+  margin:10px auto;
+  margin-bottom:1.5em;
+  font-size:1.1em;
+}
+
+** end of undefined **
+
