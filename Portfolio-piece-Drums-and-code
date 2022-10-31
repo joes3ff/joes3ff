@@ -1,0 +1,317 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>How to Play Drums</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Rudiments">Rudiments</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Grooves">Grooves</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Styles">Styles</a>
+        </li>
+        <li><a class="nav-link" href="#Accents">Accents</a>
+        </li>
+        <li><a class="nav-link" href="#Code">Code</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+        <article>
+          <p>Introduction... First things first, holding sticks...<br></br>There are 4 parts of the drumstick, from top to bottom, tip, neck, shaft & butt.</p>
+          <ul>
+            <li>Hold the stick with a relaxed, firm grip.</li>
+            <li>Allow a coupe inches of butt to stick out.</li>
+            <li>Stay relaxed, don't squeeze the sticks when playing.</li>
+          </ul>
+        </article>
+      </section>
+      <section id="Rudiments" class="main-section">
+        <header>Rudiments</header>
+        <article>
+          <p>Rudiments... The makeup of all sticking patterns, grooves & fills. Learn these and they'll make you a drumming adonis.</p>
+          <ul>
+            <li>Practice to a metronome, change tempo when fluency is built.</li>
+            <li>Use a practice pad, add clothes or a pillow to increase muscle development.</li>
+            <li>If weary, practice whilst watching something, this will help with boredom.</li>
+          </ul>
+        </article>
+      </section>
+      <section id="Grooves" class="main-section">
+        <header>Grooves</header>
+        <article>
+          <p>Grooves... To play with people, you want to learn a drumbeat, also known as a <em><span class="funky">Groove.</span></em></p>
+          <ul>
+            <li>Count 1-4 & repeat... play hi-hat every count, bass on 1, snare on 3, both with the hi-hat.</li>
+            <li>Practice changing the beat.</li>
+            <li>Play to songs or a metronome.</li>
+          </ul>
+        </article>
+      </section>
+      <section id="Styles" class="main-section">
+        <header>Styles</header>
+        <article>
+          <p>Styles... Depending on how fast and hard/soft you play, you can play many styles.</p>
+          <ul>
+            <li>Harder playing sounds like rock.</li>
+            <li>Lighter playing sounds like pop.</li>
+            <li>Really heavy playing sounds like metal.</li>
+          </ul>
+        </article>
+      </section>
+      <section id="Accents" class="main-section">
+        <header>Accents</header>
+        <article>
+          <p>Accents... accenting notes means playing some soft & hard in a sequence, perfect for fills and dynamic grooves.</p>
+          <ul>
+            <li>Try a simple snare roll right-left hands, 1 (R) 2 (L) 3 (R) 4 (L).</li>
+            <li>Make one of these loud and all others quiet.</li>
+            <li>Change the amount of loud/quiet notes and play around the kit.</li>
+          </ul>
+        </article>
+      </section>
+      <section id="Code" class="main-section">
+        <header>Code</header>
+        <article>
+          <p>Code... Here's some of the code used in this website is as follows...
+          </p>
+          <br></br>
+          <p>CSS includes the general selector '*',
+            <br></br>
+            <pre>
+              <code>* {
+    box-sizing:border-box;
+  }
+              </code>
+          </pre>
+          </p>
+          <p>There is HTML such as,
+            <br></br>
+            <code> 	&lt;p>Paragraph Coding Elements&lt;/p>
+
+            </code>
+          </p>
+          <p>For each coloured section we have,
+          <br></br>
+          <code>
+          &lt;section id="section-name" class="main-section"> 
+          </code>
+          <br></br>
+          These have distinct section names, such as 'Accents' and a class that relates them all, such as 'main-section'.
+          </p>
+          <p>Additional CCS includes...
+            <br></br>
+              <pre>
+                <code>
+                body {
+  font-family:Helvetica, tahoma, sans-serif;
+  display:block;
+  background-color:#EDEDE9;
+  margin:8px;
+  margin-top:0px;
+  margin-bottom:0px;
+  border-bottom:0px;
+  margin-left:10px;
+  min-width:400px;
+}
+              </pre>
+                </code>
+            <br></br>
+            And also...
+            <br></br>
+              <pre>
+                <code>
+                @media screen and (min-width: 480px) {
+  body {
+    background-color: rebeccapurple;
+  }
+}
+             
+              </code> 
+            </pre>
+          </p>
+          <p>These extra selectors and rules help the page with handling presentation to <u>different devices</u> & the main theme of the <u>body</u> of content.
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing:border-box;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: rebeccapurple;
+  }
+}
+
+body {
+  font-family:Helvetica, tahoma, sans-serif;
+  display:block;
+  background-color:#EDEDE9;
+  margin:8px;
+  margin-top:0px;
+  margin-bottom:0px;
+  border-bottom:0px;
+  margin-left:10px;
+  min-width:400px;
+}
+
+header {
+  font-weight:900;
+  font-family:tahoma;
+  margin:10px;
+  margin-top:0px;
+  text-align:center;
+  font-size:1.2rem;
+  padding-top:0px;
+}
+
+#navbar > header {
+  font-size:1.8em;
+  margin:30px;
+  font-weight:normal;
+}
+
+.nav-link {
+  color:#000000;
+}
+
+a:hover {
+  color:#0b999a;
+}
+
+#navbar {
+  position:fixed;
+  min-width:250px;
+  border-right:3px solid rgba(0, 22, 22, 0.4);;
+  top:0px;
+  left:0px;
+  width:270px;
+  height:100%;
+  background-color:#fddbb6;
+  margin-bottom:100px;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid rgba(0, 22, 22, 0.4);;
+  list-style:none;
+  position:relative;
+  width:100%;
+}
+
+#navbar a {
+  display:block;
+  padding:50px 30px;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.5em;
+}
+
+#navbar ul {
+  height:86%;
+  overflow-y: scroll;
+  scrollbar-color:#ede4d1 rgba(0, 22, 22, 0.4);
+  scrollbar-width: thin;
+}
+
+li {
+  display: list-item;
+  text-align: match-parent;
+}
+
+#introduction {
+  background-color:#ede4d1;
+}
+
+#rudiments {
+  background-color:#e3d5ca;
+}
+
+#Grooves {
+  background-color:#f5ebe0;
+}
+
+#styles {
+  background-color:#d5bdaf;
+}
+
+#accents {
+  background-color:#EDEDE9;
+}
+
+#code {
+  background-color:#e3d5ca;
+}
+
+#main-section {
+  position:absolute;
+  display: block;
+  min-width:400px;
+  margin-left:240px;
+  margin-bottom:110px;
+  padding:0px 0px 0px 20px;
+  margin-top:0px;
+  display:flex;
+  flex-direction:column;
+}
+
+article {
+  padding:0px;
+  margin:auto 0px;
+}
+
+#rudiments {
+  
+}
+
+.funky {
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 19px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+** end of undefined **
+
