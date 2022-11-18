@@ -1,0 +1,328 @@
+** start of undefined **
+
+<!DOCTYPE html>
+  <html lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:wght@200&family=Open+Sans:wght@600&family=Roboto&display=swap" rel="stylesheet"> 
+    <head>
+      <title>Joe S - Portfolio Page</title>
+    </head>
+    <body>
+      <!--- START NAV --->
+      <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+          <li>
+            <a href="#projects">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!--- END NAV --->
+      <!--- START WELCOME --->
+      <section id="welcome-section" class="welcome-section">
+        <h1>Hi, I'm Joe...</h1>
+        <p>
+           a self-taught web developer
+        </p>      
+      </section>
+      <!--- END WELCOME --->
+      <!--- START PROJECTS --->
+      <section id="projects" class="project-section">
+        <h2 class="projects-header">These are some of my projects</h2>
+        <div class="projects-grid">
+          <!-- LINKEDIN -->
+          <a class="project project-tile" href="https://www.linkedin.com/in/joe-synnott-4a9224185/" target="_blank">
+          <img class="project-image" src="https://media-exp1.licdn.com/dms/image/C5603AQGuVpNKJgzzEw/profile-displayphoto-shrink_200_200/0/1588614492221?e=1674086400&v=beta&t=99fQujFX8HibwSdDuLV5bPxy9vFD0PPA3v0BzG8TMKQ" alt="LinkedIn Profile Image of Yorkshire Drummer">
+          <p class="project-title">
+            <span class="code"><</span>
+            LinkedIn
+            <span class="code">/ ></span>
+          </p>
+          </a>
+          <!-- WIX -->
+          <a class="project project-tile" href="https://joesynnottdrums.wixsite.com/yorkshiredrummer" target="_blank">
+          <img class="project-image" src="https://static.wixstatic.com/media/5cb28d_8648b5e540bb4746974facc0affda7b3~mv2_d_2048_1364_s_2.jpg/v1/crop/x_488,y_262,w_1075,h_1102/fill/w_370,h_380,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Drumcover.jpg" alt="Wix Webpage Image of Yorkshire Drummer">
+          <p class="project-title">
+            <span class="code"><</span>
+            Wix
+            <span class="code">/ ></span>
+          </p>
+          </a>
+          <!-- GOOGLEBIZ -->
+          <a class="project project-tile" href="https://yorkshire-drummer-tuition.business.site" target="_blank">
+          <img class="project-image" src="https://lh3.googleusercontent.com/p/AF1QipMGVJTJ4e-qzKr1qMHPu2xqWqV-asKKHLbq2k0z=w960-h960-n-o-v1" alt="Google Buisness Image of Yorkshire Drummer">
+          <p class="project-title">
+            <span class="code"><</span>
+            Google Buisness
+            <span class="code">/ ></span>
+          </p>
+          </a>
+          <!-- WORDPRESS -->
+          <a class="project project-tile" href="https://yorkshiredrummer.wordpress.com" target="_blank">
+          <img class="project-image" src="https://yorkshiredrummer.files.wordpress.com/2022/11/yorkshire-drummer-logo.png?w=1024" alt="Wordpress Logo for Yorkshire Drummer">
+          <p class="project-title">
+            <span class="code"><</span>
+            Wordpress
+            <span class="code">/ ></span>
+          </p>
+          </a>
+          <!-- FREECODECAMP -->
+          <a class="project project-tile" href="https://www.freecodecamp.org/Joes3ff" target="_blank">
+          <img class="project-image" src="https://i.picsum.photos/id/1062/5092/3395.jpg?hmac=o9m7qeU51uOLfXvepXcTrk2ZPiSBJEkiiOp-Qvxja-k" alt="freeCodeCamp avatar for joes3ff">
+          <p class="project-title">
+            <span class="code"><</span>
+            freeCodeCamp
+            <span class="code">/ ></span>
+          </p>
+          </a>
+          <!-- GITHUB -->
+          <a class="project project-tile" href="https://github.com/joes3ff" target="_blank">
+          <img class="project-image" src="https://avatars.githubusercontent.com/u/100196829?v=4" alt="GitHub avatar for joes3ff">
+          <p class="project-title">
+            <span class="code"><</span>
+            GitHub
+            <span class="code">/ ></span>
+          </p>
+          </a>
+        </div>
+        <button type="button" onclick="alert('Here We Go!')"><a href="https://codepen.io/joes3ff" class="btn btn-show-all" target="_blank">View More</a></button>
+      </section>
+      <!--- END PROJECTS --->
+      <!--- START CONTACT --->
+      <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+          <h2>Spyer or Hire!</h2>
+          <p>Guaranteed to enliven any space or workplace</p>
+        </div>
+        <div class="contact-links">
+          <a id="profile-link" href="https://www.instagram.com/yorkshirecoach/"  target="_blank" class="btn contact-details">Insta</a>
+          <a id="profile-link" href="https://www.instagram.com/yorkshiredrummer/"  target="_blank" class="btn contact-details">Insta #2</a>
+          <a id="profile-link" href="https://www.instagram.com/yorkshirecoach/"  target="_blank" class="btn contact-details">Insta</a>
+          <a id="profile-link" href="https://linktr.ee/YorkshireDrummer"  target="_blank" class="btn contact-details">LinkTree</a>
+          <a href="mailto:joesynnottdrums@gmail.com" class="btn contact-details">E-mail</a>
+      </section>
+      <!--- END CONTACT --->
+      <!--- START FOOTER --->
+      <footer>
+        <p>All rights to published works associated with this page are available under a 'free to use' policy.
+        </p>
+        <p>
+          © Created for freeCodeCamp Accreditation.
+        </p>
+      </footer>
+      <!--- END FOOTER --->
+    </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+	--main-white: #F0EFF4;
+	--main-dustypink: #E7CFCD;
+	--main-lightpink: #C688AE;
+  --main-pink: #D23E99;
+	--main-plum: #4e2563;
+	--main-gray: #646464;
+	--main-black: #1F1D1D;
+}
+
+/* MAIN */
+
+@media only screen and (max-width: 600px) {
+  .nav { background-color: lightblue;
+  }
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 1.4;
+	color: var(--main-white);
+}
+
+h1 {
+	letter-spacing: 1.5px;
+	font-weight:bold;
+}
+
+/* NAV BAR */
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: var(--main-lightpink);
+	box-shadow: 0 2px 0 rgba(90,90,90, 0.4);
+	z-index: 10;
+}
+
+.nav-list {
+	display:flex;
+	margin-right:2rem;
+}
+
+ul {
+	list-style:none;
+}
+
+.nav-list a {
+	display: block;
+	font-size: 2rem;
+	padding: 2rem;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+/* LINKS */
+
+a {
+	text-decoration: none;
+	color: var(--main-white);
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+a:hover {
+	color: var(--main-plum);
+	transition-duration:0.6s;
+}
+
+/*WELCOME SECTON*/
+
+.welcome-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50vh;
+	background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcome-section > p {
+	font-size: 2rem;
+	font-weight: 600;
+	letter-spacing:1px;
+	font-style: italic;
+	color: var(--main-pink);
+}
+
+/*PROJECT SECTON*/
+
+.project-section {
+	text-align: center;
+	padding: 10rem 2rem;
+	background-color: var(--main-dustypink);
+}
+
+.projects-header {
+	max-width: 640px;
+	margin: 0 auto 6rem auto;
+	border-bottom: 0.2rem solid var(--main-white);
+	font-family:tahoma;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 4rem;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-bottom: 6rem;
+}
+
+.project-image {
+	height: calc(100% - 6.8rem);
+	width: 100%;
+	object-fit: cover;
+}
+
+.project {
+	background: var(--main-gray);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+}
+
+.code {
+	color: var(--main-white);
+	transition: color 0.3s ease-out;
+	font-weight:200;
+}
+
+.project:hover .code {
+	color: var(--main-plum);
+}
+
+.project > p:hover {
+	color: var(--main-plum);
+	opacity:60%;
+	transition: color 0.4s ease-out;
+}
+
+.project-title {
+	font-size: 2.5rem;
+	padding: 2rem 1rem;
+}
+
+.btn {
+	display: inline-block;
+	padding: 1rem 2rem;
+	border-radius: 2px;
+}
+
+.btn-show-all {
+	font-size: 2rem;
+	background: var(--main-gray);
+	transition: background 0.3s ease-out;
+}
+
+.contact-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 50vh;
+	padding: 0 2rem;
+	background: var(--main-pink);
+}
+
+footer {
+	font-weight: 300;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2rem;
+	background: var(--main-gray);
+	border-top: 4px solid var(--main-dustypink);
+}
+
+** end of undefined **
+
