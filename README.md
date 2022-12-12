@@ -1,7 +1,7 @@
 - 👋 I’m @joes3ff
-- 🌱 I've been learning coding
-- 👀 I want to create web/mobile apps
-- 💞️ I’d love to collaborate martial-arts & music projects...
+- 🌱 I've been learning coding for 6 months
+- 👀 I want to create web/mobile apps for Martial Arts
+- 💞️ I’d love to work on projects that stretch my JS skills...
 - 📫 Reach me @ instagram.com/yorkshiredrummer...
 
 <!---
